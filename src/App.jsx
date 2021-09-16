@@ -51,30 +51,6 @@ export default class App extends React.Component {
     }
   }
 
-  // initAnswer = () => {
-  //   const initDataset = this.state.dataset[this.state.currentId];
-  //   const initAnswers = initDataset.answers;
-
-  //   this.setState({
-  //     answers: initAnswers
-  //   })
-  // }
-
-  // initChats = () => {
-  //   const initDataset = this.state.dataset[this.state.currentId];
-  //   const chat = {
-  //     text: initDataset.question,
-  //     type: 'question'
-  //   }
-    
-  //   const chats = this.state.chats;
-  //   chats.push(chat);
-
-  //   this.setState({
-  //     chats: chats
-  //   })
-  // }
-
   componentDidMount() {
     const initAnswer = "";
     this.selectAnswer(initAnswer, this.state.currentId)
